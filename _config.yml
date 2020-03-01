@@ -1,16 +1,7 @@
 url: https://seanpackham.com
 
-sass:
-  style: compressed
-
 exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
   - README.md
-
-plugins:
-  - jekyll-redirect-from
-
-whitelist:
-  - jekyll-redirect-from
