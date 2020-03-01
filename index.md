@@ -4,7 +4,7 @@ layout: default
 
 # Hi 👋
 
-I'm Sean, a game designer and the creator of Turn Time.
+I'm Sean, game designer, creating Turn Time.
 
 ## What is Turn Time?
 
