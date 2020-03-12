@@ -4,7 +4,7 @@ layout: default
 
 # Hi 👋
 
-I'm Sean, game designer, creating *Turn Time*.
+I'm Sean, game designer, creating *TurnTime*.
 
 ## What is Turn Time?
 

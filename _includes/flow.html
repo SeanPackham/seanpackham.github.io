@@ -1,0 +1,32 @@
+
+{% unless include.child %}
+  <div class="flow">
+{% endunless %}
+
+<ul>
+  {% for node in include.nodes %}
+  <li>
+    <span class="edge"></span>
+
+    <div class="content {% if node.done %}done{% endif %}">
+      <div class="title">
+        {{ node.name }}
+      </div>
+
+      {% if node.description %}
+        <div class="description">{{ node.description }}</div>
+      {% endif %}
+    </div>
+
+    {% if node.nodes %}
+      {% include flow.html nodes=node.nodes child=true %}
+    {% endif %}
+
+    <div class="clear"></div>
+  </li>
+  {% endfor %}
+</ul>
+
+{% unless include.child %}
+</div>
+{% endunless %}

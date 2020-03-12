@@ -1,0 +1,73 @@
+
+body.flow main {
+  max-width: 100%;
+}
+
+div.flow {
+  $font-size: 70%;
+
+  $border-color: rgb(150, 150, 150);
+
+  $node-background: rgb(255, 255, 255);
+  $node-done-background: rgb(217, 248, 213);
+  $node-hover-background: rgb(216, 236, 241);
+
+  font-size: $font-size;
+  padding: 1em 0 0 1em;
+  margin: 3em 0 1em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-left: 1em;
+    margin-left: -1em;
+    border-left: 1px solid $border-color;
+  }
+
+  li:last-of-type {
+    border: none;
+  }
+
+  .content:hover, .content:hover + ul .content {
+    background-color: $node-hover-background;
+  }
+
+  .edge {
+    float: left;
+    width: 2em;
+    margin-left: -1em;
+    border-top: 1px solid $border-color;
+  }
+
+  .content {
+    position: relative;
+    float: left;
+    padding: 0.5em 0.75em;
+    margin: -1em 0 2em 0;
+    border-radius: 0.5em;
+    border: 1px solid $border-color;
+    background-color: $node-background;
+    z-index: 1;
+  }
+
+  .done, .content:hover + ul .done {
+    background-color: $node-done-background;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .description {
+    font-style: italic;
+    margin-top: 0.5em;
+  }
+}
