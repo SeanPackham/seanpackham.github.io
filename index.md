@@ -6,7 +6,7 @@ layout: default
 
 I'm Sean, game designer, creating *TurnTime*.
 
-## What is Turn Time?
+## What is TurnTime?
 
 The ultimate toolkit for card game designers.
 
