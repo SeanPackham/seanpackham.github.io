@@ -1,6 +1,8 @@
 url: https://seanpackham.com
 version: 1
 
+permalink: pretty
+
 exclude:
   - CNAME
   - Gemfile
