@@ -8,15 +8,7 @@ body.flow main {
 }
 
 div.flow {
-  $font-size: 75%;
-
-  $border-color: rgb(150, 150, 150);
-
-  $node-background: rgb(255, 255, 255);
-  $node-done-background: rgb(217, 248, 213);
-  $node-hover-background: rgb(219, 237, 241);
-
-  font-size: $font-size;
+  font-size: 75%;
   padding: 1em 0 0 1em;
   margin: 3em 0 1em;
   overflow-x: scroll;
@@ -33,7 +25,7 @@ div.flow {
   li {
     padding-left: 1em;
     margin-left: -1em;
-    border-left: 1px solid $border-color;
+    border-left: 1px solid rgb(150, 150, 150);
   }
 
   li:last-of-type {
@@ -41,14 +33,14 @@ div.flow {
   }
 
   .content:hover, .content:hover + ul .content {
-    background-color: $node-hover-background;
+    background-color: rgb(219, 237, 241);
   }
 
   .edge {
     float: left;
     width: 2em;
     margin-left: -1em;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid rgb(150, 150, 150);
   }
 
   .content {
@@ -57,14 +49,14 @@ div.flow {
     padding: 0.25em 0.5em;
     margin: -1em 0 2em 0;
     border-radius: 0.5em;
-    border: 1px solid $border-color;
-    background-color: $node-background;
+    border: 1px solid rgb(150, 150, 150);
+    background-color: rgb(255, 255, 255);
     transition-duration: 0.5s;
     z-index: 1;
   }
 
   .done, .content:hover + ul .done {
-    background-color: $node-done-background;
+    background-color: rgb(217, 248, 213);
   }
 
   .title {
