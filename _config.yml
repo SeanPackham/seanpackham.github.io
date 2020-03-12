@@ -1,7 +1,29 @@
 url: https://seanpackham.com
+version: 1
 
 exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
   - README.md
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      type: "projects"
+    values:
+      layout: "project"
