@@ -1,16 +1,20 @@
 
+/*
+flow
+*/
+
 body.flow main {
   max-width: 100%;
 }
 
 div.flow {
-  $font-size: 70%;
+  $font-size: 75%;
 
   $border-color: rgb(150, 150, 150);
 
   $node-background: rgb(255, 255, 255);
   $node-done-background: rgb(217, 248, 213);
-  $node-hover-background: rgb(216, 236, 241);
+  $node-hover-background: rgb(219, 237, 241);
 
   font-size: $font-size;
   padding: 1em 0 0 1em;
@@ -50,11 +54,12 @@ div.flow {
   .content {
     position: relative;
     float: left;
-    padding: 0.5em 0.75em;
+    padding: 0.25em 0.5em;
     margin: -1em 0 2em 0;
     border-radius: 0.5em;
     border: 1px solid $border-color;
     background-color: $node-background;
+    transition-duration: 0.5s;
     z-index: 1;
   }
 
@@ -68,6 +73,6 @@ div.flow {
 
   .description {
     font-style: italic;
-    margin-top: 0.5em;
+    margin-top: 0.25em;
   }
 }

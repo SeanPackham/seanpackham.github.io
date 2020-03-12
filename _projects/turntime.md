@@ -9,10 +9,6 @@ nodes:
               - name: Drag Card to Stack
                 done: true
                 description: Add card to end of stack list.
-                nodes:
-                - name: Drag Card to Stack
-                  done: true
-                  description: Add card to end of stack list.
       - name: Window Layout
         nodes:
             - name: Grid Layout
