@@ -14,4 +14,6 @@ The ultimate toolkit for card game designers.
 - Play test more
 - Create better games
 
-Follow me on [Twitter](https://twitter.com/seanpackham) for updates. View the [project plan](/projects/turntime/) for an overview of the development roadmap.
+Follow me on [Twitter](https://twitter.com/seanpackham) for updates.
+
+View the [project plan](/projects/turntime/) for an overview of the development roadmap.
