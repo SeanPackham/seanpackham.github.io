@@ -8,3 +8,4 @@ _site/
 .ruby-version
 
 .DS_Store
+*.bak

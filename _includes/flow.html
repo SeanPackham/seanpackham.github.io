@@ -3,12 +3,32 @@
 <div class="flow">
 {% endunless %}
 
+{% if node.color %}
+  <style>
+    content.{{ node.name | slugify }} {
+      background-color: {{ node.color }};
+    }
+  </style>
+{% endif %}
+
 <ul>
   {% for node in include.nodes %}
-  <li>
+
+  {% if node.color %}
+  <style>
+    div.flow .{{ node.name | slugify }} .content {
+      background-color: {{ node.color }};
+    }
+  </style>
+  {% endif %}
+
+  <li class="
+    {% if node.done %}done{% endif %}
+    {% if node.color %}{{ node.name | slugify }}{% endif %}">
+
     <span class="edge"></span>
 
-    <div class="content {% if node.done %}done{% endif %}">
+    <div class="content">
       <div class="title">
         {{ node.name }}
       </div>
