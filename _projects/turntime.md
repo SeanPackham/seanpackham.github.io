@@ -46,15 +46,15 @@ nodes:
 
 # TurnTime Project
 
-I'm splitting TurnTime development into four phases. See the [Roadmap Overview](#roadmap-overview) for high-level tasks in each phase.
+I'm splitting TurnTime development into four phases. See the [Roadmap](#roadmap-overview) for high-level tasks in each phase.
 
 ## Phase 1: Singleplayer
 
-In Phase 1 I'm solving the most challenging aspects of the project: the design language for card game design and the user interface.
+In Phase 1 I'm solving the most challenging aspects of the project: the design language and user interface.
 
-Games will be limited to singleplayer (solo or AI), but the engine is being designed with multiplayer in mind.
+Games will be limited to singleplayer (solo or AI), but the engine is being designed for multiplayer.
 
-Lastly, I'll prototype artificial intelligence which can learn to play any game from the rules and trial and error.
+Lastly, I'll prototype artificial intelligence which can learn to play from the rules and trial and error.
 
 TurnTime will be distributed as a free Electron app.
 
@@ -64,7 +64,7 @@ In Phase 2 I'll implement a UDP multiplayer architecture for the Electron client
 
 People will be able to connect to multiplayer games via port and socket (no NAT punchthrough).
 
-TurnTime will distributed as a premium early access Electron app.
+TurnTime will be distributed as a premium early access Electron app.
 
 ## Phase 3: Steam
 
@@ -78,4 +78,4 @@ In Phase 4 I'll implement online services: cloud saving, game design analytics, 
 
 TurnTime will distributed off and on Steam as a premium Electron app and as a SaaS web application.
 
-# Roadmap Overview
+# Roadmap
