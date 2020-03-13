@@ -32,10 +32,6 @@ div.flow {
     border: none;
   }
 
-  .content:hover, .content:hover + ul .content {
-    background-color: rgb(219, 237, 241);
-  }
-
   .edge {
     float: left;
     width: 2em;
@@ -43,19 +39,20 @@ div.flow {
     border-top: 1px solid rgb(150, 150, 150);
   }
 
-  .content {
+  li .content {
     position: relative;
     float: left;
     padding: 0.25em 0.5em;
     margin: -1em 0 2em 0;
+    max-width: 20em;
     border-radius: 0.5em;
     border: 1px solid rgb(150, 150, 150);
     background-color: rgb(255, 255, 255);
-    transition-duration: 0.5s;
+    white-space: normal;
     z-index: 1;
   }
 
-  .done, .content:hover + ul .done {
+  li.done .content {
     background-color: rgb(217, 248, 213);
   }
 
