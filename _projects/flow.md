@@ -49,7 +49,7 @@ In Phase 2 I'll step up the complexity and work with digraphs. I'm not sure what
 
 ## Phase 3: ...
 
-There will be many more phases, things I'd like to explore: artithmetic and set-like operations, knowlege comparison and exchange, inheritence, ancestral guided evolution and much more.
+There will be many more phases, things I'd like to explore: artithmetic and set-like operations, knowlege comparison and exchange, inheritence and evolution, and much more.
 
 
 [includes/flow]: https://github.com/seanpackham/seanpackham.github.io/blob/master/_includes/flow.html
