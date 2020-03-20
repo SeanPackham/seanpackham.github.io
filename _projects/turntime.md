@@ -1,6 +1,8 @@
 ---
+title: "Project: TurnTime"
+
 nodes:
-  - name: "Phase 1: Singleplayer"
+  - name: "<strong>Phase 1: Singleplayer</strong>"
     color: rgb(227, 244, 248)
     nodes:
       - name: Design Language
@@ -33,18 +35,16 @@ nodes:
           - name: Card Layout
 
 
-  - name: "Phase 2: Multiplayer"
+  - name: "<strong>Phase 2: Multiplayer</strong>"
     color: rgb(255, 229, 199)
 
-  - name: "Phase 3: Steam"
+  - name: "<strong>Phase 3: Steam</strong>"
     color: rgb(241, 224, 253)
 
-  - name: "Phase 4: Services"
+  - name: "<strong>Phase 4: Services</strong>"
     color: rgb(253, 224, 224)
 
 ---
-
-# TurnTime Project
 
 I'm splitting TurnTime development into four phases. See the [Roadmap](#roadmap-overview) for high-level tasks in each phase.
 
@@ -54,7 +54,7 @@ In Phase 1 I'm solving the most challenging aspects of the project: the design l
 
 Games will be limited to singleplayer (solo or AI), but the engine is being designed for multiplayer.
 
-Lastly, I'll prototype artificial intelligence which can learn to play from the rules and trial and error.
+Lastly, I'll prototype artificial intelligence which can learn to play from the rules, observation and trial and error.
 
 TurnTime will be distributed as a free Electron app.
 
@@ -77,5 +77,3 @@ TurnTime will distributed off and on Steam as a premium Electron app.
 In Phase 4 I'll implement online services: cloud saving, game design analytics, play testing analytics and more.
 
 TurnTime will distributed off and on Steam as a premium Electron app and as a SaaS web application.
-
-# Roadmap
