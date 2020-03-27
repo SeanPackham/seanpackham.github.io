@@ -3,11 +3,19 @@
 flow
 */
 
-body.flow main {
-  max-width: 100%;
+body.flow {
+  main {
+    max-width: 100%;
+  }
+
+  footer {
+    margin: 2em 0 0;
+  }
 }
 
 div.flow {
+  $border-color: rgb(150, 150, 150);
+
   font-size: 75%;
   padding: 1em 0 0 1em;
   margin: 3em 0 1em;
@@ -25,7 +33,7 @@ div.flow {
   li {
     padding-left: 1em;
     margin-left: -1em;
-    border-left: 1px solid rgb(150, 150, 150);
+    border-left: 1px solid $border-color;
   }
 
   li:last-of-type {
@@ -36,7 +44,7 @@ div.flow {
     float: left;
     width: 2em;
     margin-left: -1em;
-    border-top: 1px solid rgb(150, 150, 150);
+    border-top: 1px solid $border-color;
   }
 
   li .content {
@@ -46,7 +54,7 @@ div.flow {
     margin: -1em 0 2em 0;
     max-width: 20em;
     border-radius: 0.5em;
-    border: 1px solid rgb(150, 150, 150);
+    border: 1px solid $border-color;
     background-color: rgb(255, 255, 255);
     white-space: normal;
     z-index: 1;

@@ -3,6 +3,8 @@
 default
 */
 
+$font-color: #3f3030;
+
 html {
   height: 100%;
 }
@@ -11,7 +13,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  color: #283c46;
+  color: $font-color;
   margin: 0;
   padding: 0 1em;
   text-rendering: optimizeLegibility;
@@ -29,29 +31,33 @@ header, footer {
 }
 
 h1, h2, h3 {
-  color: #2d2d2d;
   line-height: 1;
-  margin: 1.5em 0 1em 0;
+  margin: 2em 0 1.25em 0;
 }
 
 h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.25em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
 
-a, a:visited { color: #20597e; }
-a:hover { color: #002147 }
+a, a:visited { color: $font-color; }
+a:hover { color: #a33333 }
 
 p { margin: 1em 0; }
 
 footer {
   clear: both;
-  // margin: 3em 0 0;
   font-size: 0.8em;
 }
 
 nav a {
   display: inline-block;
   margin: 0 0.5em 0 0;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid $font-color;
+  margin: 2em 0;
 }
 
 .clear { clear: both; }

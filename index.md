@@ -5,7 +5,7 @@ title: Hello
 
 # Hi 👋
 
-I'm Sean. Marketer, developer and game designer. I'm creating things.
+I'm Sean,  a [marketer](/marketing), developer and game designer.
 
 ## Projects:
 
@@ -17,6 +17,6 @@ The ultimate toolkit for card game designers.
 - Play test more
 - Create better games
 
-## [Flow](/projects/flow/)
+### [Flow](/projects/flow/)
 
 Cognition visualised.
