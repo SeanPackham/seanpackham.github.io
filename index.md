@@ -5,7 +5,7 @@ title: Hello
 
 # Hi 👋
 
-I'm Sean,  a [marketer](/marketing), developer and game designer.
+I'm Sean, a [marketer](/marketing), developer and game designer.
 
 ## Projects:
 
