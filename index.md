@@ -1,12 +1,15 @@
 ---
 layout: default
+title: Hello
 ---
 
 # Hi 👋
 
-I'm Sean, game designer, creating *TurnTime*.
+I'm Sean. Marketer, developer and game designer. I'm creating things.
 
-## What is TurnTime?
+## Projects:
+
+### [TurnTime](/projects/turntime/)
 
 The ultimate toolkit for card game designers.
 
@@ -14,6 +17,6 @@ The ultimate toolkit for card game designers.
 - Play test more
 - Create better games
 
-Follow me on [Twitter](https://twitter.com/seanpackham) for updates.
+## [Flow](/projects/flow/)
 
-View the [project plan](/projects/turntime/) for an overview of the development roadmap.
+Cognition visualised.
