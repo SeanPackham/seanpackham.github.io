@@ -5,16 +5,20 @@ title: Marketing
 
 # Marketing
 
-Excecutive marketing leader with extensive experience growing remote teams and definining and executing the overall marketing vision and strategy for world leading startups such as GitLab, Purism and Rocket.Chat.
+Excecutive marketing leader with extensive experience growing remote teams and definining and executing the overall marketing vision and strategy for world leading startups.
 
-## Featured Work
+## Purism
 
-### Product Marketing
+Established and lead the new marketing team to launch products, strengthen product messaging and reach new audiences.
 
-- Purism's [Librem Mini](https://puri.sm/products/librem-mini/){:target="_blank"} product page
-- Most of the Rocket.Chat [website](https://rocket.chat){:target="_blank"} except solutions
+## Rocket.Chat
 
-### Content Marketing
+Established and lead the first marketing team to launch services, rework product marketing and increase leads.
 
-- [Essential free software for remote work](https://news.ycombinator.com/item?id=22698299){:target="_blank"} <small>puri.sm</small>
-- [Why we are not leaving the cloud ](https://news.ycombinator.com/item?id=13774929){:target="_blank"} <small>about.gitlab.com</small>
+## GitLab
+
+Grew and lead the content marketing and technical writing teams to increase content production and engagement.
+
+## Codio
+
+Grew and lead the content team to create their computer science and software development curriculum.
