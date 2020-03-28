@@ -3,24 +3,23 @@ title: "Project: Flow"
 
 nodes:
   - name: "<strong>Phase 1: Horizontal Tree</strong>"
-    description: "Goal: Edit and visualise a horizontal tree of project dependencies."
+    description: "Visualise and edit horizontal trees."
     color: rgb(227, 244, 248)
     nodes:
-      - name: Visualise
+      - name: Schema
+        description: Name, descripton and color.
         done: true
         nodes:
-          - name: Nested List Layout
-            nodes:
-              - name: Nodes
-              - name: Edges
-          - name: Colors
-            done: ture
-      - name: YAML Schema
-        description: Node name, descripton, color and done flag.
-        done: true
-      - name: Jekyll Integration
-        description: Usable as a custom Jekyll type, Projects, or as an template include.
-        done: true
+        - name: Layout
+          description: Nested unordered lists.
+          nodes:
+            - name: Styling
+              description: Nodes and edges.
+      - name: Server
+        description: Write changes to YAML.
+        nodes:
+        - name: JavaScript Client
+          description: Add, edit, delete and move nodes.
 
 
   - name: "<strong>Phase 2: Directed Graph</strong>"
@@ -31,7 +30,7 @@ nodes:
 
 ---
 
-*Flow* captures a set of ideas about cognition that I've been thinking about for around 7 years. An exploratory project to structurally and visually represent knowlege, understanding and thought to increases the rate of inforamtion exchange between humans and humans and computers.
+*Flow* captures a set of ideas about cognition that I've been thinking about for around 7 years. An exploratory project to structurally and visually represent knowlege, understanding and thought to increases the rate of information exchange between people and people and computers.
 
 ## Phase 1: Horizontal Tree
 
@@ -49,7 +48,7 @@ In Phase 2 I'll step up the complexity and work with digraphs. I'm not sure what
 
 ## Phase 3: ...
 
-There will be many more phases, things I'd like to explore: artithmetic and set-like operations, knowlege comparison and exchange, inheritence and evolution, and much more.
+There will be many more phases, things I'd like to explore: artithmetic and set-like operations, knowlege comparison and exchange, inheritence and evolution.
 
 
 [includes/flow]: https://github.com/seanpackham/seanpackham.github.io/blob/master/_includes/flow.html
