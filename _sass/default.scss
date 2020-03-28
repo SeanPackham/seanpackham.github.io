@@ -5,10 +5,6 @@ default
 
 $font-color: #3f3030;
 
-html {
-  height: 100%;
-}
-
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -35,19 +31,34 @@ h1, h2, h3 {
   margin: 1.5em 0 1.25em 0;
 }
 
-h1 { font-size: 1.75em; }
-h2 { font-size: 1.3em; }
-h3 { font-size: 1.15em; }
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.15em;
+}
 
 h4 {
   font-size: 1em;
   margin: 1em 0;
 }
 
-a, a:visited { color: $font-color; }
-a:hover { color: #a33333 }
+a, a:visited {
+  color: $font-color;
+}
 
-p { margin: 1em 0; }
+a:hover {
+  color: #a33333
+}
+
+p {
+  margin: 1em 0;
+}
 
 footer {
   clear: both;
@@ -65,7 +76,9 @@ hr {
   margin: 2em 0;
 }
 
-.clear { clear: both; }
+.clear {
+  clear: both;
+}
 
 @media (max-width: 700px) {
   body {
