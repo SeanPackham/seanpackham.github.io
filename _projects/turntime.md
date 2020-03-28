@@ -5,34 +5,13 @@ nodes:
   - name: "<strong>Phase 1: Singleplayer</strong>"
     color: rgb(227, 244, 248)
     nodes:
+      - name: Layout
+        description: Window, stacks and cards.
+        nodes:
+        - name: Interaction
+          description: Drag and drop stacks and cards.
       - name: Design Language
-        nodes:
-          - name: Object Definition
-            description: Cards, stacks (hand, deck, etc), turns, phases etc will share a common definition.
-
-          - name: Action Definition
-            description: Card and stack manipulation.
-
-          - name: Event Definition
-            description: Triggers that occur at the start, during, end or on events.
-
-      - name: User Interface
-        nodes:
-          - name: Drag & Drop
-            nodes:
-              - name: HTML Drag & Drop API
-                nodes:
-                  - name: Drag Card to Stack
-                    done: true
-                    description: Add card to end of stack list.
-          - name: Window Layout
-            nodes:
-                - name: Grid Layout
-          - name: Stack Layout
-            nodes:
-              - name: Horizontal Layout
-              - name: Vertical Layout
-          - name: Card Layout
+        description: Objects, actions and events.
 
 
   - name: "<strong>Phase 2: Multiplayer</strong>"
