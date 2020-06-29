@@ -7,6 +7,10 @@ title: Marketing
 
 Excecutive marketing leader with extensive experience growing remote teams and definining and executing the overall marketing vision and strategy for world leading startups.
 
+## Kythera
+
+Leading the production and marketing teams.
+
 ## Purism
 
 Established and lead the new marketing team to launch products, strengthen product messaging and reach new audiences.

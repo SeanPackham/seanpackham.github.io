@@ -5,18 +5,4 @@ title: Hello
 
 # Hi 👋
 
-I'm Sean, [marketer](/marketing), developer and game designer.
-
-## Projects:
-
-### [TurnTime](/projects/turntime/)
-
-The ultimate toolkit for card game designers.
-
-- Design faster
-- Play test more
-- Create better games
-
-### [Flow](/projects/flow/)
-
-Cognition visualised.
+I'm Sean, I head-up production and marketing for [Kythera](https://kythera.ai){:target="_blank"} - leading AI middleware for game development. 
