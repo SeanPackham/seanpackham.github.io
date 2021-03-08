@@ -5,4 +5,4 @@ title: Hello
 
 # Hi 👋
 
-I'm Sean, I head up marketing for [Kythera](https://kythera.ai){:target="_blank"} - leading AI middleware for game development. 
+I'm Sean, I leadt marketing for [PostHog](https://posthog.com){:target="_blank"} - developer-first open source product analytics platform. [We're hiring!](developer-first open source product analytics platform. We're hiring!){:target="_blank"} 
