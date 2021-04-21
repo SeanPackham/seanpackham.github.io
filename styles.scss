@@ -3,17 +3,17 @@
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: #3f3030;
-  margin: 2em 0 0;
+  margin: 2em 0;
   padding: 0 1em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-header, footer, main, .wrapper {
+header, footer, main {
   max-width: 500px;
   margin: 0 auto;
 }
@@ -23,7 +23,7 @@ header {
 }
 
 footer {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 a, a:visited {
@@ -36,10 +36,4 @@ a:hover {
 
 p {
   margin: 1em 0;
-}
-
-@media (max-width: 800px) {
-  body {
-    font-size: 16px;
-  }
 }
