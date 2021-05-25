@@ -85,7 +85,7 @@
     </footer>
 
     {% if site.url != "http://localhost:4000" %}
-    <script async defer data-domain="seanpackham.com" src="https://plausible.io/js/plausible.js"></script>
+    <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"seanpackham",utcoffset:"0"}))};sessionStorage.setItem("_swa","1");</script>
     {% endif %}
   </body>
 </html>
